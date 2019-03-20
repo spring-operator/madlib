@@ -135,7 +135,7 @@ FROM temp_result;
 
 /*
  * The following example is taken from:
- * http://www.ats.ucla.edu/stat/stata/output/old/lognoframe.htm
+ * https://stats.idre.ucla.edu/
  * Crime data
  *
  * Description
@@ -259,7 +259,7 @@ SELECT assert(
 
 /*
  * The following example is taken from:
- * http://www.ats.ucla.edu/stat/r/dae/logit.htm
+ * https://stats.idre.ucla.edu/
  * Predicting heart attack
  */
 

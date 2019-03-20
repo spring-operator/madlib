@@ -34,7 +34,7 @@ double KolmogorovProb(double z);
  *            the value x assuming the null hypothesis.
  *
  *    The implementation is based on the method described in
- *    http://www.jstatsoft.org/v08/i18/paper - Section 3
+ *    https://www.jstatsoft.org/v08/i18/paper - Section 3
  *    The limiting forms in the paper correspond to P(K <= x); since we need
  *    the P(K > x) we return 1 - P(K <= x).
  */

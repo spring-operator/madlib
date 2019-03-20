@@ -151,7 +151,7 @@ for better performance.
     For speed '++' is faster than '+', which is faster than '-'.
     For accuracy '+++' is better than '++'.
 
-    More details about the individual algorithms can be found in the  <a href="http://eigen.tuxfamily.org/dox-devel/group__TutorialLinearAlgebra.html"> Eigen documentation</a>.  Eigen is an open source library for linear algebra.
+    More details about the individual algorithms can be found in the  <a href="https://eigen.tuxfamily.org/dox-devel/group__TutorialLinearAlgebra.html"> Eigen documentation</a>.  Eigen is an open source library for linear algebra.
 </DD>
 </DL>
 

@@ -4,7 +4,7 @@
  *
  * @brief Declarations/definitions for using an "old" libstdc++ with a newer g++
  *
- * This file follows ideas proposed here: http://glandium.org/blog/?p=1901
+ * This file follows ideas proposed here: https://glandium.org/blog/?p=1901
  * Unfortunately, MADlib seems to use libstdc++ to a greater extend than
  * Firefox 4.0 did, so we need to do a bit more.
  *
@@ -23,14 +23,14 @@
  *
  * For a mapping between gcc versions, libstdc++ versions, and symbol versioning
  * on the libstdc++.so binary, see:
- * http://gcc.gnu.org/onlinedocs/libstdc++/manual/abi.html
+ * https://gcc.gnu.org/onlinedocs/libstdc++/manual/abi.html
  *
  *//* ----------------------------------------------------------------------- */
 
 #include <ostream>
 
 // The following macro was introduced with this commit:
-// http://gcc.gnu.org/viewcvs?diff_format=h&view=revision&revision=173774
+// https://gcc.gnu.org/viewcvs?diff_format=h&view=revision&revision=173774
 #ifndef _GLIBCXX_USE_NOEXCEPT
     #define _GLIBCXX_USE_NOEXCEPT throw()
 #endif
@@ -52,11 +52,11 @@ namespace __cxxabiv1 {
  *
  * Older versions of libstdc++ had the problem that POSIX thread cancellations
  * while writing to an ostream caused an abort:
- * http://gcc.gnu.org/bugzilla/show_bug.cgi?id=28145
+ * https://gcc.gnu.org/bugzilla/show_bug.cgi?id=28145
  *
  * Newer versions have an additional catch block for references of type
  * __cxxabiv1::__forced_unwind, which represents the POSIX cancellation object:
- * http://gcc.gnu.org/onlinedocs/libstdc++/manual/using_exceptions.html
+ * https://gcc.gnu.org/onlinedocs/libstdc++/manual/using_exceptions.html
  * See, e.g., file <bits/ostream.tcc> included from <ostream>. Catching
  * exceptions of this type requires its \c type_info object. However, this
  * object is not normally present in the current binary, as explained in the
@@ -64,9 +64,9 @@ namespace __cxxabiv1 {
  *
  * The type __cxxabiv1::__forced_unwind was only introduced in May 2007 (see
  * attachments to the previous bug report) and thus after the release of
- * gcc 4.1.2 (Feb 13, 2007, see http://gcc.gnu.org/releases.html).
+ * gcc 4.1.2 (Feb 13, 2007, see https://gcc.gnu.org/releases.html).
  *
- * As http://gcc.gnu.org/onlinedocs/gcc/Vague-Linkage.html explains:
+ * As https://gcc.gnu.org/onlinedocs/gcc/Vague-Linkage.html explains:
  * <blockquote>
  *     If the class declares any non-inline, non-pure virtual functions, the
  *     first one is chosen as the "key method" for the class, and the vtable is
@@ -81,7 +81,7 @@ namespace __cxxabiv1 {
  *
  * Hence, to include a vtable, we need a definition for the key method, which is
  * the constructor. See the declaration here:
- * http://gcc.gnu.org/viewcvs/trunk/libstdc%2B%2B-v3/libsupc%2B%2B/cxxabi_forced.h
+ * https://gcc.gnu.org/viewcvs/trunk/libstdc%2B%2B-v3/libsupc%2B%2B/cxxabi_forced.h
  */
 __forced_unwind::~__forced_unwind() _GLIBCXX_USE_NOEXCEPT { }
 
@@ -100,14 +100,14 @@ namespace std {
  * @brief Write a value to an ostream
  *
  * In recent versions of libstdc++, \c _M_insert contains the implementation for
- * the various operator<<() overloads. Now, as http://glandium.org/blog/?p=1901
+ * the various operator<<() overloads. Now, as https://glandium.org/blog/?p=1901
  * explains, newer libstdc++ versions contain various instantiations for
  * \c _M_insert, even though <bits/ostream.tcc> contains a general (template)
  * definition.
  *
  * Older versions of libstdc++ did not contain implementations for \c _M_insert,
  * so we instantiate them here. See this change:
- * http://gcc.gnu.org/viewcvs/trunk/libstdc%2B%2B-v3/include/bits/ostream.tcc?r1=109235&r2=109236&
+ * https://gcc.gnu.org/viewcvs/trunk/libstdc%2B%2B-v3/include/bits/ostream.tcc?r1=109235&r2=109236&
  */
 template ostream& ostream::_M_insert(bool);
 // The following four lines are not needed and commented out. Specialized
@@ -131,7 +131,7 @@ template ostream& ostream::_M_insert(const void*);
  * @brief Write a sequence of characters to an ostream
  *
  * This function was only added with this commit:
- * http://gcc.gnu.org/viewcvs?view=revision&revision=123692
+ * https://gcc.gnu.org/viewcvs?view=revision&revision=123692
  */
 template ostream& __ostream_insert(ostream&, const char*, streamsize);
 
@@ -151,14 +151,14 @@ namespace std {
  *
  * This was previously an inline function and moved out of line with this
  * commit:
- * http://gcc.gnu.org/viewcvs?view=revision&revision=140238
+ * https://gcc.gnu.org/viewcvs?view=revision&revision=140238
  *
  * See also this bug report:
- * http://gcc.gnu.org/bugzilla/show_bug.cgi?id=37455
+ * https://gcc.gnu.org/bugzilla/show_bug.cgi?id=37455
  *
  * std::ctype<char>::_M_widen_init() is a function added to libstdc++ by
  * Jerry Quinn with revision 74662 on Dec 16, 2003:
- * http://gcc.gnu.org/viewcvs?diff_format=h&view=revision&revision=74662
+ * https://gcc.gnu.org/viewcvs?diff_format=h&view=revision&revision=74662
  *
  * With explicit permission by Jerry Quinn from Oct 9, 2012, we include a
  * verbatim copy of _M_widen_init() here. However, a static_cast was added to
@@ -167,7 +167,7 @@ namespace std {
  * Revision 74662 of the libstdc++-v3 file include/bits/locale_facets.h, where
  * std::ctype<char>::_M_widen_init() has been copied from, also included the
  * following notice in the file header:
- * http://gcc.gnu.org/viewcvs/trunk/libstdc%2B%2B-v3/include/bits/locale_facets.h?diff_format=h&view=markup&pathrev=74662
+ * https://gcc.gnu.org/viewcvs/trunk/libstdc%2B%2B-v3/include/bits/locale_facets.h?diff_format=h&view=markup&pathrev=74662
  *
  * <blockquote>
  *     As a special exception, you may use this file as part of a free software
@@ -214,9 +214,9 @@ namespace std {
  * before and therefore have always had virtual members.
  *
  * The first commit that added these destructors is:
- * http://gcc.gnu.org/viewcvs?diff_format=h&view=revision&revision=170975
+ * https://gcc.gnu.org/viewcvs?diff_format=h&view=revision&revision=170975
  * This commit was included already in the first gcc 4.6.0 release:
- * http://gcc.gnu.org/viewcvs/tags/gcc_4_6_0_release/libstdc%2B%2B-v3/src/stdexcept.cc
+ * https://gcc.gnu.org/viewcvs/tags/gcc_4_6_0_release/libstdc%2B%2B-v3/src/stdexcept.cc
  */
 domain_error::~domain_error() _GLIBCXX_USE_NOEXCEPT { }
 invalid_argument::~invalid_argument() _GLIBCXX_USE_NOEXCEPT { }

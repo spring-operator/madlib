@@ -430,7 +430,7 @@ done according to the following formulas:
 Note: The last equality follows from the definition
 \f$ R^2 = 1 - \frac{RSS}{TSS} \f$ and the fact that for linear regression
 \f$ TSS = RSS + ESS \f$. A proof of the latter can be found, e.g., at:
-http://en.wikipedia.org/wiki/Sum_of_squares
+https://en.wikipedia.org/wiki/Sum_of_squares
 
 We estimate the variance
 \f$ Var[Y - \boldsymbol c^T \boldsymbol x \mid \boldsymbol x] \f$ as
@@ -474,16 +474,16 @@ more than 1000) indicates the presence of significant multicollinearity.
 [1] Cosma Shalizi: Statistics 36-350: Data Mining, Lecture Notes, 21 October
     2009, http://www.stat.cmu.edu/~cshalizi/350/lectures/17/lecture-17.pdf
 
-[2] Wikipedia: Condition Number, http://en.wikipedia.org/wiki/Condition_number.
+[2] Wikipedia: Condition Number, https://en.wikipedia.org/wiki/Condition_number.
 
 [3] Wikipedia: Spectral Norm,
-    http://en.wikipedia.org/wiki/Spectral_norm#Spectral_norm
+    https://en.wikipedia.org/wiki/Spectral_norm#Spectral_norm
 
 [4] Wikipedia: Breusch–Pagan test,
-    http://en.wikipedia.org/wiki/Breusch%E2%80%93Pagan_test
+    https://en.wikipedia.org/wiki/Breusch%25E2%2580%2593Pagan_test
 
 [5] Wikipedia: Heteroscedasticity-consistent standard errors,
-http://en.wikipedia.org/wiki/Heteroscedasticity-consistent_standard_errors
+https://en.wikipedia.org/wiki/Heteroscedasticity-consistent_standard_errors
 
 
 @anchor related

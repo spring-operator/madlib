@@ -246,7 +246,7 @@ m4_ifdef(`__HAS_FUNCTION_PROPERTIES__', `READS SQL DATA', `');
  * This function exists for portability. Some DBMSs like PostgreSQL treat
  * floating-point numbers as fully ordered -- contrary to IEEE 754. (See, e.g.,
  * the <a href=
- * "http://www.postgresql.org/docs/current/static/datatype-numeric.html#DATATYPE-FLOAT"
+ * "https://www.postgresql.org/docs/current/static/datatype-numeric.html#DATATYPE-FLOAT"
  * >PostgreSQL documentation</a>. For portability, MADlib code should not make
  * use of such "features" directly, but only use isnan() instead.
  *
@@ -292,7 +292,7 @@ m4_ifdef(`__HAS_FUNCTION_PROPERTIES__', `MODIFIES SQL DATA', `');
  *
  * The only use of this function is as an optimization fence when used in the
  * SELECT list of a query. See, e.g.,
- * http://archives.postgresql.org/pgsql-sql/2012-07/msg00030.php
+ * https://archives.postgresql.org/pgsql-sql/2012-07/msg00030.php
  */
 CREATE OR REPLACE FUNCTION MADLIB_SCHEMA.noop()
 RETURNS VOID

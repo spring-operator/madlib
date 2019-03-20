@@ -111,7 +111,7 @@ SELECT madlib.pmml('patients_logregr');
 Result:
 <pre class="result">
 <?xml version="1.0" standalone="yes"?>
-<PMML version="4.1" xmlns="http://www.dmg.org/pmml-v4-1.html">
+<PMML version="4.1" xmlns="http://dmg.org/pmml-v4-1.html">
   <Header copyright="redacted for this example">
     <Extension extender="MADlib" name="user" value="gpadmin"/>
     <Application name="MADlib" version="1.7"/>
@@ -170,7 +170,7 @@ SELECT madlib.pmml('patients_logregr_grouping',
 Result:
 <pre class="result">
 <?xml version="1.0" standalone="yes"?>
- <PMML version="4.1" xmlns="http://www.dmg.org/pmml-v4-1.html">
+ <PMML version="4.1" xmlns="http://dmg.org/pmml-v4-1.html">
    <Header copyright="redacted for this example">
      <Extension extender="MADlib" name="user" value="gpadmin"/>
      <Application name="MADlib" version="1.7"/>
@@ -254,7 +254,7 @@ the model, which includes the name and usage type.
 - Output: Allows for naming of output fields expected from the model.
 
 MADlib follows the PMML v4.1 standard. For more details about PMML, see
-http://www.dmg.org/v4-1/GeneralStructure.html.
+http://dmg.org/v4-1/GeneralStructure.html.
 
 
 @anchor related

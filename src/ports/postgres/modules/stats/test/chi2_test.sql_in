@@ -2,7 +2,7 @@
  * Test Chi-squared goodness-of-fit test.
  *
  * Example taken from:
- * http://www.statsdirect.com/help/chi_square_tests/chi_good.htm
+ * https://www.statsdirect.com/help/chi_square_tests/chi_good.htm
  * -------------------------------------------------------------------------- */
 
 CREATE TABLE chi2_test_blood_group (
@@ -32,7 +32,7 @@ SELECT assert(
  * Test chi-squared independence test.
  *
  * Example taken from:
- * http://itl.nist.gov/div898/software/dataplot/refman1/auxillar/chistest.htm
+ * https://itl.nist.gov/div898/software/dataplot/refman1/auxillar/chistest.htm
  * who cite Friendly (2000), "Visualizing Categorical Data", SAS Institute Inc.,
  * p. 61.
  * -------------------------------------------------------------------------- */

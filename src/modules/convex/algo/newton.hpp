@@ -73,7 +73,7 @@ Newton<State, ConstState, Task>::final(state_type &state) {
 
     // solve in place, subject to change if gradient is somehow needed
     // ldlt decomposition is chosen for its numerical stability, see 
-    // http://eigen.tuxfamily.org/dox-3.0/TutorialLinearAlgebra.html
+    // https://eigen.tuxfamily.org/dox-3.0/TutorialLinearAlgebra.html
     state.algo.gradient = state.algo.hessian.ldlt().solve(state.algo.gradient);
     state.task.model -= state.algo.gradient;
 }

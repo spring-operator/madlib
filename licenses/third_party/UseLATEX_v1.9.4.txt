@@ -1,5 +1,5 @@
 From the header comments of UseLATEX.cmake
-(obtained from http://www.cmake.org/Wiki/CMakeUserUseLATEX):
+(obtained from https://www.cmake.org/Wiki/CMakeUserUseLATEX):
 
 # Author: Kenneth Moreland <kmorel@sandia.gov>
 #

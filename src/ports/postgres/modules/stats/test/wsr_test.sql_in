@@ -2,7 +2,7 @@
  * Test Wilcoxon signed-rank test.
  * 
  * Example taken from:
- * http://www-stat.stanford.edu/~susan/courses/s141/hononpara.pdf
+ * https://www-stat.stanford.edu/~susan/courses/s141/hononpara.pdf
  * -------------------------------------------------------------------------- */
 
 m4_include(`SQLCommon.m4')

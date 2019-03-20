@@ -181,7 +181,7 @@ struct FunctionInformation {
  * Each cache is stored in the \c fn_extra field of struct \c FmgrInfo (or in
  * the \c user_fctx field of struct \c FuncCallContext). As such, the cache only
  * lives till the end of the current query (see
- * <http://www.postgresql.org/docs/current/static/plhandler.html>).
+ * <https://www.postgresql.org/docs/current/static/plhandler.html>).
  *
  * @note
  *     In order to not leave defined C++ behavior, this must be a plain-old data

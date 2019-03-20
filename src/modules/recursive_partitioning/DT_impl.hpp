@@ -56,7 +56,7 @@ IntegerVector argsort(const ColumnVector & x) {
 
 string
 escape_quotes(const string &before) {
-    // From http://stackoverflow.com/questions/1162619/fastest-quote-escaping-implementation
+    // From https://stackoverflow.com/questions/1162619/fastest-quote-escaping-implementation
     string after;
     after.reserve(before.length() + 4);
 

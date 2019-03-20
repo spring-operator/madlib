@@ -55,7 +55,7 @@ NativeRandomNumberGenerator::min() {
  * representable number larger than the tight upper bound on the set of all
  * values returned by operator(). In any case, the return value of this function
  * shall not change during the lifetime of the object."
- * http://www.boost.org/doc/libs/1_50_0/doc/html/boost_random/reference.html
+ * https://www.boost.org/doc/libs/1_50_0/doc/html/boost_random/reference.html
  */
 inline
 NativeRandomNumberGenerator::result_type

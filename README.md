@@ -9,7 +9,7 @@ machine learning methods for structured and unstructured data.
 
 Installation and Contribution
 ==============================
-See the project website  [`MADlib Home`](http://madlib.apache.org/) for links to the
+See the project website  [`MADlib Home`](https://madlib.apache.org/) for links to the
 latest binary and source packages. For installation and contribution guides,
 and other useful information
 please refer to the [`MADlib Wiki`](https://cwiki.apache.org/confluence/display/MADLIB/)
@@ -96,7 +96,7 @@ Detailed build instructions are available in [`ReadMe_Build.txt`](ReadMe_Build.t
 User and Developer Documentation
 ==================================
 The latest documentation of MADlib modules can be found at [`MADlib
-Docs`](http://madlib.apache.org/docs/latest/index.html).
+Docs`](https://madlib.apache.org/docs/latest/index.html).
 
 
 Architecture
@@ -112,17 +112,17 @@ Third Party Components
 ======================
 MADlib incorporates software from the following third-party components.  Bundled with source code:
 
-1. [`libstemmer`](http://snowballstem.org/) "small string processing language"
+1. [`libstemmer`](https://snowballstem.org/) "small string processing language"
 2. [`m_widen_init`](licenses/third_party/_M_widen_init.txt) "allows compilation with recent versions of gcc with runtime dependencies from earlier versions of libstdc++"
-3. [`argparse 1.2.1`](http://code.google.com/p/argparse/) "provides an easy, declarative interface for creating command line tools"
-4. [`PyYAML 3.10`](http://pyyaml.org/wiki/PyYAML) "YAML parser and emitter for Python"
+3. [`argparse 1.2.1`](https://code.google.com/p/argparse/) "provides an easy, declarative interface for creating command line tools"
+4. [`PyYAML 3.10`](https://pyyaml.org/wiki/PyYAML) "YAML parser and emitter for Python"
 5. [`UseLATEX.cmake`](https://github.com/kmorel/UseLATEX/blob/master/UseLATEX.cmake) "CMAKE commands to use the LaTeX compiler"
 
 Downloaded at build time (or supplied as build dependencies):
 
-6. [`Boost 1.61.0 (or newer)`](http://www.boost.org/) "provides peer-reviewed portable C++ source libraries"
+6. [`Boost 1.61.0 (or newer)`](https://www.boost.org/) "provides peer-reviewed portable C++ source libraries"
 7. [`PyXB 1.2.4`](http://pyxb.sourceforge.net/) "Python library for XML Schema Bindings"
-8. [`Eigen 3.2.2`](http://eigen.tuxfamily.org/index.php?title=Main_Page) "C++ template library for linear algebra"
+8. [`Eigen 3.2.2`](https://eigen.tuxfamily.org/index.php?title=Main_Page) "C++ template library for linear algebra"
 
 Licensing
 ==========
@@ -142,8 +142,8 @@ Papers and Talks
 =================
 * [`MAD Skills : New Analysis Practices for Big Data (VLDB 2009)`](http://db.cs.berkeley.edu/papers/vldb09-madskills.pdf)
 * [`Hybrid In-Database Inference for Declarative Information Extraction (SIGMOD 2011)`](https://amplab.cs.berkeley.edu/publication/hybrid-in-database-inference-for-declarative-information-extraction/)
-* [`Towards a Unified Architecture for In-Database Analytics (SIGMOD 2012)`](http://www.cs.stanford.edu/~chrismre/papers/bismarck-full.pdf)
-* [`The MADlib Analytics Library or MAD Skills, the SQL (VLDB 2012)`](http://www.eecs.berkeley.edu/Pubs/TechRpts/2012/EECS-2012-38.html)
+* [`Towards a Unified Architecture for In-Database Analytics (SIGMOD 2012)`](https://www.cs.stanford.edu/~chrismre/papers/bismarck-full.pdf)
+* [`The MADlib Analytics Library or MAD Skills, the SQL (VLDB 2012)`](https://www.eecs.berkeley.edu/Pubs/TechRpts/2012/EECS-2012-38.html)
 
 
 Related Software

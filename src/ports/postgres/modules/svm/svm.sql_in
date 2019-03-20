@@ -822,18 +822,18 @@ Also, see the book [4] by Scholkopf and Smola  for more details on SVMs in gener
 [1] Xixuan Feng, Arun Kumar, Ben Recht, and Christopher Re:
     Towards a Unified Architecture for in-RDBMS analytics,
     in SIGMOD Conference, 2012
-    http://www.eecs.berkeley.edu/~brecht/papers/12.FengEtAl.SIGMOD.pdf
+    https://www.eecs.berkeley.edu/~brecht/papers/12.FengEtAl.SIGMOD.pdf
 
 @anchor svm-lit-2
 [2] Purushottam Kar and Harish Karnick: Random Feature Maps for Dot
     Product Kernels, Proceedings of the 15th International Conference
     on Artificial Intelligence and Statistics, 2012,
-    http://machinelearning.wustl.edu/mlpapers/paper_files/AISTATS2012_KarK12.pdf
+    https://machinelearning.wustl.edu/mlpapers/paper_files/AISTATS2012_KarK12.pdf
 
 @anchor svm-lit-3
 [3] Ali Rahmini and Ben Recht: Random Features for Large-Scale
 Kernel Machines, Neural Information Processing Systems 2007,
-    http://www.eecs.berkeley.edu/~brecht/papers/07.rah.rec.nips.pdf
+    https://www.eecs.berkeley.edu/~brecht/papers/07.rah.rec.nips.pdf
 
 @anchor svm-lit-4
 [4] Bernhard Scholkopf and Alexander Smola: Learning with Kernels,
@@ -842,7 +842,7 @@ Kernel Machines, Neural Information Processing Systems 2007,
 @anchor svm-lit-5
 [5] Vladimir Cherkassky and Yunqian Ma: Practical Selection of SVM Parameters
     and Noise Estimation for SVM Regression, Neural Networks, 2004
-    http://www.ece.umn.edu/users/cherkass/N2002-SI-SVM-13-whole.pdf
+    https://www.ece.umn.edu/users/cherkass/N2002-SI-SVM-13-whole.pdf
 
 @anchor related
 @par Related Topics

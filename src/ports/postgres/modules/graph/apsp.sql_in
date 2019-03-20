@@ -372,7 +372,7 @@ SELECT * FROM out_gr_path ORDER BY grp;
 
 [1] http://www.columbia.edu/~cs2035/courses/ieor6614.S11/apsp.pdf
 
-[2] http://users.cecs.anu.edu.au/~Alistair.Rendell/Teaching/apac_comp3600/module4/all_pairs_shortest_paths.xhtml
+[2] https://users.cecs.anu.edu.au/~Alistair.Rendell/Teaching/apac_comp3600/module4/all_pairs_shortest_paths.xhtml
 
 [3] The case against specialized graph analytics engines, J. Fan, G. Soosai Raj,
 and J. M. Patel. CIDR 2015. http://cidrdb.org/cidr2015/Papers/CIDR15_Paper20.pdf

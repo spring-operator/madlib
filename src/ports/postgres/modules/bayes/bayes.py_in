@@ -19,7 +19,7 @@ Naive Bayes: Setup Functions
 
     By the IEEE 754 standard, the smallest number representable as
     DOUBLE PRECISION (64bit) is $2^{-1022}$, i.e., approximately 2.225e-308.
-    See, e.g., http://en.wikipedia.org/wiki/Double_precision
+    See, e.g., https://en.wikipedia.org/wiki/Double_precision
     Hence, log(x) = log_10(x) for any non-zero DOUBLE PRECISION @f$x \ge -308@f$.
 
     Note for theorists:

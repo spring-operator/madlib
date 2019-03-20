@@ -513,7 +513,7 @@ SELECT madlib.lda_get_perplexity( 'my_model',
 [3] Y. Wang, H. Bai, M. Stanton, W-Y. Chen, and E.Y. Chang, <em>lda: Parallel
     Dirichlet Allocation for Large-scale Applications</em>, AAIM, 2009.
 
-[4] http://en.wikipedia.org/wiki/Latent_Dirichlet_allocation
+[4] https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation
 
 [5] J. Chang, Collapsed Gibbs sampling methods for topic models, R manual,
     2010.

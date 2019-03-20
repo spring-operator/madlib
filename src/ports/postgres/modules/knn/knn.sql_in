@@ -328,7 +328,7 @@ Other distance metrics will be added in a future release of this module.
 
 @anchor knn-lit-2
 [2] N. S. Altman: An Introduction to Kernel and Nearest-Neighbor Nonparametric Regression
-    http://www.stat.washington.edu/courses/stat527/s13/readings/Altman_AmStat_1992.pdf
+    https://www.stat.washington.edu/courses/stat527/s13/readings/Altman_AmStat_1992.pdf
 
 @anchor knn-lit-3
 [3] Gongde Guo1, Hui Wang, David Bell, Yaxin Bi, Kieran Greer: KNN Model-Based Approach in Classification,

@@ -51,7 +51,7 @@ def graph_apsp(schema_madlib, vertex_table, vertex_id, edge_table,
     """
     All Pairs shortest path function for graphs using the matrix
     multiplication based algorithm [1].
-    [1] http://users.cecs.anu.edu.au/~Alistair.Rendell/Teaching/apac_comp3600/module4/all_pairs_shortest_paths.xhtml
+    [1] https://users.cecs.anu.edu.au/~Alistair.Rendell/Teaching/apac_comp3600/module4/all_pairs_shortest_paths.xhtml
     Args:
         @param vertex_table     Name of the table that contains the vertex data.
         @param vertex_id        Name of the column containing the vertex ids.

@@ -205,7 +205,7 @@ t_test_two_pooled_final::run(AnyType &args) {
         return Null();
 
     // Formulas taken from:
-    // http://www.itl.nist.gov/div898/handbook/eda/section3/eda353.htm
+    // https://www.itl.nist.gov/div898/handbook/eda/section3/eda353.htm
     const double& numX = state.numX.ref();
     const double& numY = state.numY.ref();
     double dfEqualVar = numX + numY - 2;
@@ -235,7 +235,7 @@ t_test_two_unpooled_final::run(AnyType &args) {
         return Null();
 
     // Formulas taken from:
-    // http://www.itl.nist.gov/div898/handbook/eda/section3/eda353.htm
+    // https://www.itl.nist.gov/div898/handbook/eda/section3/eda353.htm
     const double& numX = state.numX.ref();
     const double& numY = state.numY.ref();
     double sampleVarianceX = state.correctedX_square_sum / (numX - 1);
@@ -274,7 +274,7 @@ f_test_final::run(AnyType &args) {
         return Null();
 
     // Formulas taken from:
-    // http://www.itl.nist.gov/div898/handbook/eda/section3/eda359.htm
+    // https://www.itl.nist.gov/div898/handbook/eda/section3/eda359.htm
     double dfX = static_cast<double>(state.numX - 1);
     double dfY = static_cast<double>(state.numY - 1);
     double sampleVarianceX = state.correctedX_square_sum / dfX;

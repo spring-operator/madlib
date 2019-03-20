@@ -5,7 +5,7 @@
 /*
  * The values given by the multinomial logistic regression were cross checked
  * with the Matlab command mnrfit, which is documented at
- * http://www.mathworks.com/help/toolbox/stats/mnrfit.html
+ * https://www.mathworks.com/help/toolbox/stats/mnrfit.html
  *
  * One important detail in the mnrfit command is that due to a difference in convention,
  * its answers for the coefficients are the negative of our coefficient.  Our

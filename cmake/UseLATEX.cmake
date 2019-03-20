@@ -702,7 +702,7 @@ function(latex_setup_variables)
   separate_arguments(LATEX2HTML_CONVERTER_FLAGS)
 
   find_program(IMAGEMAGICK_CONVERT convert
-    DOC "The convert program that comes with ImageMagick (available at http://www.imagemagick.org)."
+    DOC "The convert program that comes with ImageMagick (available at https://www.imagemagick.org)."
     )
   mark_as_advanced(IMAGEMAGICK_CONVERT)
 
@@ -861,12 +861,12 @@ function(latex_add_convert_command
     if(IMAGEMAGICK_CONVERT)
       string(TOLOWER ${IMAGEMAGICK_CONVERT} IMAGEMAGICK_CONVERT_LOWERCASE)
       if(${IMAGEMAGICK_CONVERT_LOWERCASE} MATCHES "system32[/\\\\]convert\\.exe")
-        message(SEND_ERROR "IMAGEMAGICK_CONVERT set to Window's convert.exe for changing file systems rather than ImageMagick's convert for changing image formats.  Please make sure ImageMagick is installed (available at http://www.imagemagick.org) and its convert program is used for IMAGEMAGICK_CONVERT.  (It is helpful if ImageMagick's path is before the Windows system paths.)")
+        message(SEND_ERROR "IMAGEMAGICK_CONVERT set to Window's convert.exe for changing file systems rather than ImageMagick's convert for changing image formats.  Please make sure ImageMagick is installed (available at https://www.imagemagick.org) and its convert program is used for IMAGEMAGICK_CONVERT.  (It is helpful if ImageMagick's path is before the Windows system paths.)")
       else()
         set(converter ${IMAGEMAGICK_CONVERT})
       endif()
     else()
-      message(SEND_ERROR "Could not find convert program. Please download ImageMagick from http://www.imagemagick.org and install.")
+      message(SEND_ERROR "Could not find convert program. Please download ImageMagick from https://www.imagemagick.org and install.")
     endif()
   endif()
 

@@ -25,7 +25,7 @@
  *
  * [2] NIST Digital Library of Mathematical Functions, Ch. 8,
  *     Incomplete Gamma and Related Functions,
- *     http://dlmf.nist.gov/8.17
+ *     https://dlmf.nist.gov/8.17
  *
  * [3] Lentz, Generating Bessel functions in Mie scattering calculations using
  *     continued fractions, Applied Optics, Vol. 15, No. 3, 1976

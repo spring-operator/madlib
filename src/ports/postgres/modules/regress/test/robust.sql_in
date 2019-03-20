@@ -6,8 +6,8 @@ m4_include(`SQLCommon.m4')
 
 /*
  * The following example is taken from:
- * http://www.weibull.com/DOEWeb/estimating_regression_models_using_least_squares.htm#Example%205.1
- * http://www.weibull.com/DOEWeb/hypothesis_tests_in_multiple_linear_regression.htm#Example%205.3
+ * https://www.weibull.com/DOEWeb/estimating_regression_models_using_least_squares.htm#Example%205.1
+ * https://www.weibull.com/DOEWeb/hypothesis_tests_in_multiple_linear_regression.htm#Example%205.3
  */
 DROP TABLE IF EXISTS weibull;
 CREATE TABLE weibull (

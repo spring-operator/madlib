@@ -566,10 +566,10 @@ trivially reduces to maximum-likelihood estimates.
 
 [1] Tom Mitchell: Machine Learning, McGraw Hill, 1997. Book chapter
     <em>Generativ and Discriminative Classifiers: Naive Bayes and Logistic
-    Regression</em> available at: http://www.cs.cmu.edu/~tom/NewChapters.html
+    Regression</em> available at: https://www.cs.cmu.edu/~tom/NewChapters.html
 
 [2] Wikipedia, Naive Bayes classifier,
-    http://en.wikipedia.org/wiki/Naive_Bayes_classifier
+    https://en.wikipedia.org/wiki/Naive_Bayes_classifier
 
 @anchor related
 @par Related Topics
