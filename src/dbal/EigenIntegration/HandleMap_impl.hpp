@@ -82,7 +82,7 @@ HandleMap<EigenType, Handle, MapOptions>::rebind(
  *
  * @internal
  *     Using the placement new syntax is endorsed by the Eigen developers
- *     http://eigen.tuxfamily.org/dox-devel/classEigen_1_1Map.html
+ *     https://eigen.tuxfamily.org/dox-devel/classEigen_1_1Map.html
  */
 template <class EigenType, class Handle, int MapOptions>
 inline

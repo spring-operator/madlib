@@ -73,11 +73,11 @@
 
 	\makeatletter
 	% Also display JSTOR in small caps
-	% http://sourceforge.net/tracker/index.php?func=detail&aid=3152938&group_id=244752&atid=1126006
+	% https://sourceforge.net/p/legacy_/tracker/index.php?func=detail&aid=3152938&group_id=244752&atid=1126006
 	\DeclareFieldFormat{eprint:arxiv}{%
 	  \textsc{arXiv}\addcolon
 	  \ifhyperref
-	    {\href{http://arxiv.org/\abx@arxivpath/#1}{%
+	    {\href{https://arxiv.org/\abx@arxivpath/#1}{%
 	       \nolinkurl{#1}%
 	       \iffieldundef{eprintclass}
 		 {}
@@ -89,14 +89,14 @@
 	\DeclareFieldFormat{eprint:jstor}{%
 	  \mkbibacro{JSTOR}\addcolon\space
 	  \ifhyperref
-	    {\href{http://www.jstor.org/stable/#1}{\nolinkurl{#1}}}
+	    {\href{https://www.jstor.org/stable/#1}{\nolinkurl{#1}}}
 	    {\nolinkurl{#1}}}
 	% Some conferences do not have DOIs for their papers, but they do get
 	% IDs in the ACM Digital Library. E.g., SODA papers.
 	\DeclareFieldFormat{eprint:acm}{%
 	  \mkbibacro{ACM}\addcolon\space
 	  \ifhyperref
-	    {\href{http://dl.acm.org/citation.cfm?id=#1}{\nolinkurl{#1}}}
+	    {\href{https://dl.acm.org/citation.cfm?id=#1}{\nolinkurl{#1}}}
 	    {\nolinkurl{#1}}}
 	\makeatother
 
@@ -119,7 +119,7 @@
 
 	% BEGIN URLs
 		\newcommand{\mailto}[1]{\href{mailto:#1}{\nolinkurl{#1}}}
-		\newcommand{\doi}[1]{DOI: \href{http://dx.doi.org/#1}{\nolinkurl{#1}}}
+		\newcommand{\doi}[1]{DOI: \href{https://dx.doi.org/#1}{\nolinkurl{#1}}}
 	% END URLs
 
 	\makeatletter

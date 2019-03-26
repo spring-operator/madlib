@@ -2,7 +2,7 @@
  * Cox proportional hazard survival regression
  *
  * Both Example taken from:
- * http://www.sph.emory.edu/~cdckms/CoxPH/prophaz2.html
+ * https://www.sph.emory.edu/~cdckms/CoxPH/prophaz2.html
  * -------------------------------------------------------------------------- */
 
 m4_include(`SQLCommon.m4')

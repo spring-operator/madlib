@@ -828,7 +828,7 @@ Datum svec_pivot(PG_FUNCTION_ARGS)
 /*
  * Implements the partition selection algorithm with randomized selection
  *
- * From: http://en.wikipedia.org/wiki/Selection_algorithm#Linear_general_selection_algorithm_-_.22Median_of_Medians_algorithm.22
+ * From: https://en.wikipedia.org/wiki/Selection_algorithm#Linear_general_selection_algorithm_-_.22Median_of_Medians_algorithm.22
  *
  * Arguments:
  * 	char **lists:	A list of lists, the first of which contains the

@@ -427,7 +427,7 @@ Release Date: 2014-Mar-05
 New features:
 - Added a new port 'HAWQ'. MADlib can now be used with the Pivotal
 Distribution of Hadoop (PHD) through HAWQ
-(see http://www.gopivotal.com/big-data/pivotal-hd for more details).
+(see https://pivotal.io/big-data/pivotal-hd for more details).
 - Implemented performance improvements for linear and logistic predict functions.
 - Moved Conditional Random Fields (CRFs) out of early stage development, and
 updated the design and APIs for to enable ease of use and better functionality.
@@ -643,7 +643,7 @@ New Features:
     - Added a module to solve linear system of equations (Ax = b).
     - The module utilizes various direct methods from the Eigen library for
     dense systems. Given below is a summary of the methods (more details at
-    http://eigen.tuxfamily.org/dox-devel/group__TutorialLinearAlgebra.html):
+    https://eigen.tuxfamily.org/dox-devel/group__TutorialLinearAlgebra.html):
         - Householder QR
         - Partial Pivoting LU
         - Full Pivoting LU

@@ -19,7 +19,7 @@ Apache MADlib is released as both source tarball and a series of
 binary convenience artifacts for Linux and Mac OS X operating systems.
 MADlib's community takes great care of making sure that each release
 is done in accordance with ASF's release policy:
-http://www.apache.org/legal/release-policy.html
+https://www.apache.org/legal/release-policy.html
 
 The latest state of the recommended MADlib's release process can be found
 on MADlib's wiki: https://cwiki.apache.org/confluence/display/MADLIB/Release+Process
@@ -28,7 +28,7 @@ In all this, MADlib looks like any other project developed in Apache Software
 Foundation. There is, however, one major difference that anybody reviewing
 MADlib releases or considering to consume MADlib downstream need to be aware of:
 portions of MADlib source code lack the obligatory ASF licensing header information:
-  http://www.apache.org/legal/release-policy.html#license-headers
+  https://www.apache.org/legal/release-policy.html#license-headers
 
 This is very much intentional and simply reflects the nature of the original
 BSD license that MADlib had (more on that later in the Historical Background

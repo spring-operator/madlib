@@ -142,7 +142,7 @@ uint32 leftmost_zero(uint8 *bits,
         {
             /*
              * reverse and invert v, then do rightmost_one
-             * magic reverse from http://graphics.stanford.edu/~seander/bithacks.html#ReverseByteWith32Bits
+             * magic reverse from https://graphics.stanford.edu/~seander/bithacks.html#ReverseByteWith32Bits
              */
             uint8 b =
                 ((s[i] * 0x0802LU &
@@ -210,7 +210,7 @@ Datum array_set_bit_in_place(bytea *bitmap,
 /*!
  * Simple linear function to find the rightmost one (# trailing zeros) in an uint32.
  * Based on
- * http://graphics.stanford.edu/~seander/bithacks.html#ZerosOnRightLinear
+ * https://graphics.stanford.edu/~seander/bithacks.html#ZerosOnRightLinear
  * Look there for fancier ways to do this.
  * \param v an integer
  */

@@ -318,7 +318,7 @@ AnyType::operator[](uint16_t inID) const {
             // modifications in-place. In all other cases, directly modifying
             // memory is dangerous.
             // See warning at:
-            // http://www.postgresql.org/docs/current/static/xfunc-c.html#XFUNC-C-BASETYPE
+            // https://www.postgresql.org/docs/current/static/xfunc-c.html#XFUNC-C-BASETYPE
 
             // BACKEND: AggCheckCallContext currently will never raise an
             // exception

@@ -475,7 +475,7 @@ We use the delta method for calculating standard errors on the marginal effects.
 @literature
 
 
-[1] mfx function in STATA: http://www.stata.com/help.cgi?mfx_option
+[1] mfx function in STATA: https://www.stata.com/help.cgi?mfx_option
 
 @anchor related
 @par Related Topics

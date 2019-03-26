@@ -554,7 +554,7 @@ further literature:
 
 [1] John Fox: Cox Proportional-Hazards Regression for Survival Data,
         Appendix to An R and S-PLUS companion to Applied Regression Feb 2012,
-    http://cran.r-project.org/doc/contrib/Fox-Companion/appendix-cox-regression.pdf
+    https://cran.r-project.org/doc/contrib/Fox-Companion/appendix-cox-regression.pdf
 
 [2] Stephen J Walters: What is a Cox model?
     http://www.medicine.ox.ac.uk/bandolier/painres/download/whatis/cox_model.pdf

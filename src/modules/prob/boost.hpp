@@ -129,7 +129,7 @@ struct DomainCheck {
  * We override the domain check by treating -infinity and infinity as part of
  * the domain. Some, but not all, boost functions would raise a domain_error
  * instead. See:
- * http://www.boost.org/doc/libs/1_49_0/libs/math/doc/sf_and_dist/html/math_toolkit/backgrounders/implementation.html#math_toolkit.backgrounders.implementation.handling_of_floating_point_infinity
+ * https://www.boost.org/doc/libs/1_49_0/libs/math/doc/sf_and_dist/html/math_toolkit/backgrounders/implementation.html#math_toolkit.backgrounders.implementation.handling_of_floating_point_infinity
  */
 template <class Distribution>
 struct RealDomainCheck {

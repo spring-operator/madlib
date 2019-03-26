@@ -213,7 +213,7 @@ Example output (the exact result may not be the same due the randomness of the a
 
 [1] N. Srebro and T. Jaakkola. “Weighted Low-Rank Approximations.” In: ICML. Ed. by T. Fawcett and N. Mishra. AAAI Press, 2003, pp. 720–727. isbn: 1-57735-189-4.
 
-[2] Simon Funk, Netflix Update: Try This at Home, December 11 2006, http://sifter.org/~simon/journal/20061211.html
+[2] Simon Funk, Netflix Update: Try This at Home, December 11 2006, https://sifter.org/~simon/journal/20061211.html
 
 [3] J. Wright, A. Ganesh, S. Rao, Y. Peng, and Y. Ma. “Robust Principal Component Analysis: Exact Recovery of Corrupted Low-Rank Matrices via Convex Optimization.” In: NIPS. Ed. by Y. Bengio, D. Schuurmans, J. D. Lafferty, C. K. I. Williams, and A. Culotta. Curran Associates, Inc., 2009, pp. 2080–2088. isbn: 9781615679119.
 
@@ -385,7 +385,7 @@ BEGIN
     PERFORM MADLIB_SCHEMA.create_schema_pg_temp();
     -- Unfortunately, the EXECUTE USING syntax is only available starting
     -- PostgreSQL 8.4:
-    -- http://www.postgresql.org/docs/8.4/static/plpgsql-statements.html#PLPGSQL-STATEMENTS-EXECUTING-DYN
+    -- https://www.postgresql.org/docs/8.4/static/plpgsql-statements.html#PLPGSQL-STATEMENTS-EXECUTING-DYN
     -- We therefore have to emulate.
     PERFORM MADLIB_SCHEMA.internal_execute_using_lmf_igd_args($sql$
         DROP TABLE IF EXISTS pg_temp._madlib_lmf_igd_args;

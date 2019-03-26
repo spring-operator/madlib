@@ -141,7 +141,7 @@ forms of usage are given. Specific function signatures, as described in
 @examp
 
 - <b>One-sample and two-sample t-test</b> (data is subset of mpg data from
-<a href="http://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm">NIST/SEMATECH</a>)
+<a href="https://www.itl.nist.gov/div898/handbook/eda/section3/eda352.htm">NIST/SEMATECH</a>)
 
 <pre class="example">
 -- Load data
@@ -358,7 +358,7 @@ SELECT (madlib.f_test(is_us, mpg)).* FROM auto83b_two_sample;
   0.311786921089247 |  26 |  23 | 0.997559863672441 | 0.00488027265511803
 </pre>
 
-- <b>Chi-squared goodness-of-fit test</b> (<a href="http://www.statsdirect.com/help/default.htm#nonparametric_methods/chisq_goodness_fit.htm">Data source</a>)
+- <b>Chi-squared goodness-of-fit test</b> (<a href="https://www.statsdirect.com/help/default.htm#nonparametric_methods/chisq_goodness_fit.htm">Data source</a>)
 
 <pre class="example">
 CREATE TABLE chi2_test_blood_group (
@@ -380,7 +380,7 @@ SELECT (madlib.chi2_gof_test(observed, expected)).* FROM chi2_test_blood_group;
   17.0481013341976 | 0.000690824622923826 |  3 | 2.06446732440826 | 0.899977280680593
  </pre>
 
-- <b>Chi-squared independence test</b> (<a href=http://itl.nist.gov/div898/software/dataplot/refman1/auxillar/chistest.htm>Data source</a>)
+- <b>Chi-squared independence test</b> (<a href=https://itl.nist.gov/div898/software/dataplot/refman1/auxillar/chistest.htm>Data source</a>)
 
 The Chi-squared independence test uses the Chi-squared goodness-of-fit function,
 as shown in the example below.  The expected value needs to be computed and passed
@@ -427,7 +427,7 @@ FROM (
   138.289841626008 | 2.32528678709871e-25 |  9 | 2.93991753313346 | 0.946730727519112
  </pre>
 
-- <b>ANOVA test</b> (<a href="http://www.itl.nist.gov/div898/handbook/prc/section4/prc433.htm">Data source</a>)
+- <b>ANOVA test</b> (<a href="https://www.itl.nist.gov/div898/handbook/prc/section4/prc433.htm">Data source</a>)
 
 <pre class="example">
 CREATE TABLE nist_anova_test (
@@ -551,7 +551,7 @@ FROM test_wsr;
 
 [3] M. Stephens: <em>Use of the Kolmogorov-Smirnov, Cramer-Von Mises and related statistics without extensive tables</em>, Journal of the Royal Statistical Society. Series B (Methodological) (1970): 115-122.
 
-[4] Wikipedia: Mann–Whitney U test calculation, http://en.wikipedia.org/wiki/Mann-Whitney_test#Calculations
+[4] Wikipedia: Mann–Whitney U test calculation, https://en.wikipedia.org/wiki/Mann-Whitney_test#Calculations
 
 @anchor related
 @par Related Topics

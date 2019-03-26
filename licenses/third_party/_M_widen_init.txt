@@ -16,5 +16,5 @@ following notice in the file header [2]:
 // library without restriction. [...]
 
 Links:
-[1] http://gcc.gnu.org/viewcvs?diff_format=h&view=revision&revision=74662
-[2] http://gcc.gnu.org/viewcvs/trunk/libstdc%2B%2B-v3/include/bits/locale_facets.h?diff_format=h&view=markup&pathrev=74662
+[1] https://gcc.gnu.org/viewcvs?diff_format=h&view=revision&revision=74662
+[2] https://gcc.gnu.org/viewcvs/trunk/libstdc%2B%2B-v3/include/bits/locale_facets.h?diff_format=h&view=markup&pathrev=74662

@@ -5,7 +5,7 @@
 # -- Initializations that need to run even before project()
 
 # For Solaris, we want to use the Sun compiler
-# See http://www.cmake.org/Bug/view.php?id=8530
+# See https://www.cmake.org/Bug/view.php?id=8530
 set(CMAKE_GENERATOR_CC  suncc gcc)
 set(CMAKE_GENERATOR_CXX sunCC g++)
 
@@ -63,10 +63,10 @@ if(CMAKE_COMPILER_IS_GNUCC)
         OUTPUT_STRIP_TRAILING_WHITESPACE)
 
     # A useful summary of warning options can be found here:
-    # http://developer.apple.com/tools/xcode/compilercodewarnings.html
+    # https://developer.apple.com/tools/xcode/compilercodewarnings.html
     # Note: gcc does not implicitly set _POSIX_C_SOURCE or _XOPEN_SOURCE
     # when using -std=c99.
-    # http://pubs.opengroup.org/onlinepubs/9699919799/functions/V2_chap02.html#tag_15_02_01_01
+    # https://pubs.opengroup.org/onlinepubs/9699919799/functions/V2_chap02.html#tag_15_02_01_01
     # We specify that we are POSIX.1-2001 compliant and XSI-conforming. We only
     # need to specify _XOPEN_SOURCE as _POSIX_C_SOURCE will be set implicitly.
     set(CMAKE_C_FLAGS "-std=c99 -pedantic -Wall -Wextra -Wno-clobbered -D_XOPEN_SOURCE=600"
@@ -75,7 +75,7 @@ if(CMAKE_COMPILER_IS_GNUCC)
 
     # See comments below for C++:
     # Weird enough, the following property is set only for C++ but not for C
-    # http://stackoverflow.com/questions/3371127/use-isystem-instead-of-i-with-cmake
+    # https://stackoverflow.com/questions/3371127/use-isystem-instead-of-i-with-cmake
     set(CMAKE_INCLUDE_SYSTEM_FLAG_C "-isystem ")
 elseif(CMAKE_C_COMPILER_ID STREQUAL "SunPro")
     set(CMAKE_C_FLAGS "-xc99=%all")
@@ -99,7 +99,7 @@ if(CMAKE_COMPILER_IS_GNUCXX)
 
     # We want to include some header files as system header files in order to
     # disable warnings. However, on Mac OS X, a CMake variable is not set
-    # correctly on Mac OS X. http://www.cmake.org/Bug/view.php?id=10837
+    # correctly on Mac OS X. https://www.cmake.org/Bug/view.php?id=10837
     if(APPLE)
         set(CMAKE_INCLUDE_SYSTEM_FLAG_CXX "-isystem ")
     endif(APPLE)

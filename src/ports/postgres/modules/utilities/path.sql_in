@@ -509,16 +509,16 @@ Pattern match
 @par Literature
 
 [1]  PostgreSQL basic statements/assignment operator,
-http://www.postgresql.org/docs/8.2/static/plpgsql-statements.html
+https://www.postgresql.org/docs/8.2/static/plpgsql-statements.html
 
 [2]  PostgreSQL pattern matching,
-http://www.postgresql.org/docs/current/static/functions-matching.html
+https://www.postgresql.org/docs/current/static/functions-matching.html
 
 [3]  PostgreSQL aggregate functions,
-http://www.postgresql.org/docs/8.2/static/tutorial-agg.html
+https://www.postgresql.org/docs/8.2/static/tutorial-agg.html
 
 [4]  PostgreSQL window functions,
-http://www.postgresql.org/docs/8.4/static/tutorial-window.html
+https://www.postgresql.org/docs/8.4/static/tutorial-window.html
 
 */
 -------------------------------------------------------------------------

@@ -50,7 +50,7 @@ user_domain_error(const char*, const char* inMessage, const T& inVal) {
         return std::numeric_limits<double>::quiet_NaN();
 
     // The following line is taken from
-    // http://www.boost.org/doc/libs/1_49_0/libs/math/doc/sf_and_dist/html/math_toolkit/policy/pol_tutorial/user_def_err_pol.html
+    // https://www.boost.org/doc/libs/1_49_0/libs/math/doc/sf_and_dist/html/math_toolkit/policy/pol_tutorial/user_def_err_pol.html
     int prec = 2 + (std::numeric_limits<T>::digits * 30103UL) / 100000UL;
 
     std::string msg = (boost::format(inMessage)

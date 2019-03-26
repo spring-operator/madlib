@@ -487,15 +487,15 @@ details.
 @anchor literature
 @literature
 
-[1] vce(cluster) function in STATA: http://www.stata.com/help.cgi?vce_option
+[1] vce(cluster) function in STATA: https://www.stata.com/help.cgi?vce_option
 
-[2] clustered estimators in R: http://people.su.se/~ma/clustering.pdf
+[2] clustered estimators in R: https://people.su.se/~ma/clustering.pdf
 
 [3] Achim Zeileis: Object-oriented Computation of Sandwich Estimators.
     Research Report Series / Department of Statistics and Mathematics, 37.
     Department of Statistics and Mathematics, WU Vienna University of Economics
   and Business, Vienna.
-    http://cran.r-project.org/web/packages/sandwich/vignettes/sandwich-OOP.pdf
+    https://cran.r-project.org/web/packages/sandwich/vignettes/sandwich-OOP.pdf
 
 [4] D. Y. Lin and L . J. Wei, _The Robust Inference for the Cox Proportional Hazards Model_, Journal of
 the American Statistical Association, Vol. 84, No. 408, p.1074 (1989).

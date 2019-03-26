@@ -835,7 +835,7 @@ Note that fitting after scaling is not equivalent to directly fitting.
 @anchor literature
 @literature
 
-[1] Elastic net regularization, http://en.wikipedia.org/wiki/Elastic_net_regularization
+[1] Elastic net regularization, https://en.wikipedia.org/wiki/Elastic_net_regularization
 
 [2] Beck, A. and M. Teboulle (2009), A fast iterative shrinkage-thresholding algorithm for linear inverse problems. SIAM J. on Imaging Sciences 2(1), 183-202.
 

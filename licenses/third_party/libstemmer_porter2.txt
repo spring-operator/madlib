@@ -1,5 +1,5 @@
 License details from
-http://snowballstem.org/license.html
+https://snowballstem.org/license.html
 
 Except where explicitly noted, all the software given out on this Snowball site is covered by the 3-clause BSD License:
 

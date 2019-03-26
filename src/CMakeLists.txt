@@ -11,7 +11,7 @@ set(MADLIB_REDIRECT_PREFIX "")
 # sites to something local
 # "-DSOURCEFORGE_BASE_URL=http://test.local/projects"
 set(SOURCEFORGE_BASE_URL
-    "${MADLIB_REDIRECT_PREFIX}http://sourceforge.net/projects"
+    "${MADLIB_REDIRECT_PREFIX}https://sourceforge.net/projects"
     CACHE STRING
     "Base URL for Sourceforge projects. May be overridden for testing purposes.")
 set(BITBUCKET_BASE_URL

@@ -211,7 +211,7 @@ LinearRegression::compute(
     // In the case of linear regression:
     // residual sum of squares (rss) = total sum of squares (tss) - explained
     // sum of squares (ess)
-    // Proof: http://en.wikipedia.org/wiki/Sum_of_squares
+    // Proof: https://en.wikipedia.org/wiki/Sum_of_squares
     double rss = tss - ess;
 
     // Variance is also called the mean square error

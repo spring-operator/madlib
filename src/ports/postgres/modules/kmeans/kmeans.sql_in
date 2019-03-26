@@ -463,13 +463,13 @@ guaranteed to converge to a local optimum.
 
 @anchor kmeans-lit-1
 [1] Wikipedia, K-means Clustering,
-    http://en.wikipedia.org/wiki/K-means_clustering
+    https://en.wikipedia.org/wiki/K-means_clustering
 
 @anchor kmeans-lit-2
 [2] David Arthur, Sergei Vassilvitskii: k-means++: the advantages of careful
     seeding, Proceedings of the 18th Annual ACM-SIAM Symposium on Discrete
     Algorithms (SODA'07), pp. 1027-1035,
-    http://www.stanford.edu/~darthur/kMeansPlusPlus.pdf
+    https://www.stanford.edu/~darthur/kMeansPlusPlus.pdf
 
 @anchor kmeans-lit-3
 [3] E. R. Hruschka, L. N. C. Silva, R. J. G. B. Campello: Clustering
@@ -805,7 +805,7 @@ BEGIN
 
     -- Unfortunately, the EXECUTE USING syntax is only available starting
     -- PostgreSQL 8.4:
-    -- http://www.postgresql.org/docs/8.4/static/plpgsql-statements.html#PLPGSQL-STATEMENTS-EXECUTING-DYN
+    -- https://www.postgresql.org/docs/8.4/static/plpgsql-statements.html#PLPGSQL-STATEMENTS-EXECUTING-DYN
     -- We therefore have to emulate.
     PERFORM MADLIB_SCHEMA.internal_execute_using_kmeans_args($sql$
         DROP TABLE IF EXISTS pg_temp._madlib_kmeans_args;
@@ -1006,7 +1006,7 @@ BEGIN
     PERFORM MADLIB_SCHEMA.create_schema_pg_temp();
     -- Unfortunately, the EXECUTE USING syntax is only available starting
     -- PostgreSQL 8.4:
-    -- http://www.postgresql.org/docs/8.4/static/plpgsql-statements.html#PLPGSQL-STATEMENTS-EXECUTING-DYN
+    -- https://www.postgresql.org/docs/8.4/static/plpgsql-statements.html#PLPGSQL-STATEMENTS-EXECUTING-DYN
     -- We therefore have to emulate.
     PERFORM MADLIB_SCHEMA.internal_execute_using_kmeanspp_seeding_args($sql$
         DROP TABLE IF EXISTS pg_temp._madlib_kmeanspp_args;
@@ -1287,7 +1287,7 @@ BEGIN
     PERFORM MADLIB_SCHEMA.create_schema_pg_temp();
     -- Unfortunately, the EXECUTE USING syntax is only available starting
     -- PostgreSQL 8.4:
-    -- http://www.postgresql.org/docs/8.4/static/plpgsql-statements.html#PLPGSQL-STATEMENTS-EXECUTING-DYN
+    -- https://www.postgresql.org/docs/8.4/static/plpgsql-statements.html#PLPGSQL-STATEMENTS-EXECUTING-DYN
     -- We therefore have to emulate.
     PERFORM MADLIB_SCHEMA.internal_execute_using_kmeans_random_seeding_args($sql$
         DROP TABLE IF EXISTS pg_temp._madlib_kmeans_random_args;

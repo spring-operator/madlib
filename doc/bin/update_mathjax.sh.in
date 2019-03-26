@@ -19,7 +19,7 @@ MATHJAX_NEEDS_UPDATE=$( \
     fi)
 
 # Update the mathjax installation, which is used by doxygen
-# See http://www.mathjax.org/resources/docs/?installation.html
+# See https://www.mathjax.org/resources/docs/?installation.html
 if [ ${MATHJAX_NEEDS_UPDATE} -ne 0 ]; then
     echo "MathJax needs update. Will sync with repository..."
     if [ -d "${MATHJAX_INSTALLATION}" ]; then

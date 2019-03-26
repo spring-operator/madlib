@@ -670,19 +670,19 @@ To avoid overfitting, we penalize the likelihood with a spherical Gaussian weigh
 
 
 @literature
-[1] F. Sha, F. Pereira. Shallow Parsing with Conditional Random Fields, http://www-bcf.usc.edu/~feisha/pubs/shallow03.pdf
+[1] F. Sha, F. Pereira. Shallow Parsing with Conditional Random Fields, https://www-bcf.usc.edu/~feisha/pubs/shallow03.pdf
 
-[2] Wikipedia, Conditional Random Field, http://en.wikipedia.org/wiki/Conditional_random_field
+[2] Wikipedia, Conditional Random Field, https://en.wikipedia.org/wiki/Conditional_random_field
 
 [3] A. Jaiswal, S.Tawari, I. Mansuri, K. Mittal, C. Tiwari (2012), CRF, http://crf.sourceforge.net/
 
-[4] D. Wang, ViterbiCRF, http://www.cs.berkeley.edu/~daisyw/ViterbiCRF.html
+[4] D. Wang, ViterbiCRF, https://www.cs.berkeley.edu/~daisyw/ViterbiCRF.html
 
-[5] Wikipedia, Viterbi Algorithm, http://en.wikipedia.org/wiki/Viterbi_algorithm
+[5] Wikipedia, Viterbi Algorithm, https://en.wikipedia.org/wiki/Viterbi_algorithm
 
 [6] J. Nocedal. Updating Quasi-Newton Matrices with Limited Storage (1980), Mathematics of Computation 35, pp. 773-782
 
-[7] J. Nocedal, Software for Large-scale Unconstrained Optimization, http://users.eecs.northwestern.edu/~nocedal/lbfgs.html
+[7] J. Nocedal, Software for Large-scale Unconstrained Optimization, http://users.iems.northwestern.edu/~nocedal/lbfgs.html
 
 @anchor related
 @par Related Topics

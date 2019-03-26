@@ -46,7 +46,7 @@ It is a support module for several machine learning algorithms that
 require a stemmer. Currently, it only supports English words.
 
 This function is a SQL interface to the implementation of the
-<a href="http://tartarus.org/~martin/PorterStemmer/">Porter Stemming Algorithm</a>.
+<a href="https://tartarus.org/~martin/PorterStemmer/">Porter Stemming Algorithm</a>.
 The original stemming algorithm is written and maintained by Martin Porter
 
 @anchor notes
@@ -196,7 +196,7 @@ RETURNS TEXT AS $$
 ------------------------------------------------------------------
 Stemming: Reducing a word to its stem or root form.
 This function is a SQL interface to the implementation of the
-Porter Stemming Algorithm (http://tartarus.org/~martin/PorterStemmer/).
+Porter Stemming Algorithm (https://tartarus.org/~martin/PorterStemmer/).
 
 ------------------------------------------------------------------
                         USAGE
